@@ -285,6 +285,7 @@ header {
 
 .footer {
   display: flex;
+  padding: 40px;
   gap: 156px;
   justify-content: center;
   background: #fce0cf;
