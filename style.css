@@ -634,3 +634,77 @@ height: 606px;
 .plan__cards {
   display: flex;
 }
+
+
+@media (max-width:1140px) and (min-width:768px) {
+  .container {
+    max-width: 736px;
+  }
+
+  .navigation {
+    display: flex;
+  }
+  .navigation__links {
+    display: flex;
+    gap: 50px;
+    max-width: 3000px;
+    margin-right: 200px;
+  }
+
+  .navigation__link {
+    width: 80px;
+  }
+
+  .subtitle__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subtitle_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text__about {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    align-items: center;
+    margin-left: 150px;
+  }
+
+  .text__information {
+    display: flex;
+    align-items: center;
+    margin-left:100px;
+  }
+
+  .information__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+
+  .plan__contents__1 {
+    display: flex;
+    justify-items: center;
+    margin-left:-200px;
+  }
+
+  .plan__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    padding: 40px;
+    gap: 40px;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    max-width:1000px;
+    margin-left:-60px;
+  }
+}
