@@ -570,6 +570,18 @@ li {
     align-items: center;
   }
 
+  .dollars {
+    width:320px;
+  }
+
+  .plan__cards {
+    width:340px;
+  }
+
+  .plan__cards-big {
+    width:340px;
+  }
+
   .footer {
     display: flex;
     flex-direction: column;
